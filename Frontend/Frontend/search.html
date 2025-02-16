@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search for Donors - Virtual Blood Donation Platform</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <header>
+    <h1>Search for Donors</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="chat.html">Chat</a></li>
+        <li><a href="#" id="logout">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="search-donors">
+      <h2>Find Donors</h2>
+      <form id="search-form">
+        <div class="form-group">
+          <label for="blood-group">Blood Group:</label>
+          <select id="blood-group" name="blood-group" required>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="location">Location:</label>
+          <input type="text" id="location" name="location" placeholder="Enter city or state" required>
+        </div>
+
+        <button type="submit" class="btn">Search</button>
+      </form>
+    </section>
+
+    <section id="search-results">
+      <h2>Search Results</h2>
+      <div id="results-container">
+        <!-- Donor results will be dynamically inserted here -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Virtual Blood Donation Platform</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="script1.js"></script>
+  <script src="script2.js"></script>
+</body>
+</html>

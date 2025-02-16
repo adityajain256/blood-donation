@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipient Dashboard - Virtual Blood Donation Platform</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <header>
+    <h1>Recipient Dashboard</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="search.html">Search Donors</a></li>
+        <li><a href="chat.html">Chat</a></li>
+        <li><a href="#" id="logout">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="user-info">
+      <h2>Welcome, <span id="username">Recipient</span>!</h2>
+      <p>Role: <span id="user-role">Recipient</span></p>
+      <p>Required Blood Group: <span id="user-blood-group">A+</span></p>
+      <p>Location: <span id="user-location">New York, USA</span></p>
+    </section>
+
+    <section id="recent-activity">
+      <h2>Recent Activity</h2>
+      <ul id="activity-list">
+        <li>You requested blood on 10/10/2023.</li>
+        <li>You contacted a donor on 10/12/2023.</li>
+      </ul>
+    </section>
+
+    <section id="quick-actions">
+      <h2>Quick Actions</h2>
+      <div class="actions">
+        <a href="search.html" class="btn">Search for Donors</a>
+        <a href="chat.html" class="btn">Start a Chat</a>
+        <a href="#" class="btn">Update Profile</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Virtual Blood Donation Platform</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="script1.js"></script>
+</body>
+</html>

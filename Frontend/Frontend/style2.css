@@ -1,0 +1,107 @@
+/* Search Page Specific Styles */
+#search-donors {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  #search-donors h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #search-donors .form-group {
+    margin-bottom: 15px;
+  }
+  
+  #search-donors .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  #search-donors .form-group input,
+  #search-donors .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  #search-donors .form-group input:focus,
+  #search-donors .form-group select:focus {
+    border-color: #ff4d4d;
+    outline: none;
+  }
+  
+  #search-donors .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #search-donors .btn:hover {
+    background-color: #cc0000;
+  }
+  
+  #search-results {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #search-results h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #results-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .donor-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .donor-card h3 {
+    margin-top: 0;
+  }
+  
+  .donor-card p {
+    margin: 5px 0;
+  }
+  
+  .donor-card .btn {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .donor-card .btn:hover {
+    background-color: #218838;
+  }

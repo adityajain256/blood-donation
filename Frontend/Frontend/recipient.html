@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register as Recipient</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Register as Recipient</h1>
+  </header>
+
+  <main>
+    <form id="recipient-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="blood-group">Required Blood Group:</label>
+      <select id="blood-group" name="blood-group" required>
+        <option value="A+">A+</option>
+        <option value="A-">A-</option>
+        <option value="B+">B+</option>
+        <option value="B-">B-</option>
+        <option value="O+">O+</option>
+        <option value="O-">O-</option>
+        <option value="AB+">AB+</option>
+        <option value="AB-">AB-</option>
+      </select>
+
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location" required>
+
+      <button type="submit" class="btn">Register</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Virtual Blood Donation Platform</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
