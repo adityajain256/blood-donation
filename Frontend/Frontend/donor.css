@@ -18,16 +18,34 @@ main{
     display: flex;
     /* grid-template-rows: repeat(4,100px); */
     /* border: 2px solid black; */
-    justify-content: center;
+    justify-content:space-evenly;
     padding: 40px;
+    border: 5px solid black;
 }
+
+
+#left{
+    border: 2px solid black;
+}
+
 
 #item1{
     grid-row: 1,2;
 }
-
+#item3{
+    padding: 10px;
+    margin-top: 10px;
+    
+}
 .btn{
     display: block;
+    background-color: var(--color);
+    padding: 8px;
+    border-radius: 19px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+
 }
 #item4{
     grid-row: 3,1;
