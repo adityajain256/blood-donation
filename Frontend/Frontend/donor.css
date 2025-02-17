@@ -11,7 +11,7 @@
 }
 
 body{
-    background-color: var(--bg);
+    background-color: var(--hc);
 }
 
 main{
@@ -19,8 +19,9 @@ main{
     /* grid-template-rows: repeat(4,100px); */
     /* border: 2px solid black; */
     justify-content:space-evenly;
+    /* margin-top: 10px; */
     padding: 40px;
-    border: 5px solid black;
+    /* border: 5px solid black; */
     height: 450px;
     align-items: center;
     
@@ -28,12 +29,16 @@ main{
 
 
 #c1{
+    background-color: var(--bg);
+    margin-top: 25px;
+    height: 300px;
+    color: var(--color);
     font-weight: bold;
     display: flex;
     /* justify-content: center; */
     /* align-items: center; */
     border: 2PX solid black;
-    padding: 100px;
+    padding: 80px;
 }
 #item1{
     font-size: 32px;
@@ -43,27 +48,30 @@ main{
 }
 
 #item2{
-    font-size: 20px;
+    font-size: 32px;
     font-weight: bold;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #item3{
-    font-size: 20px;
+    font-size: 32px;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
+    /* margin-left: 10px; */
     
 }
 .btn{
     display: block;
     background-color: var(--color);
-    padding: 8px;
+    padding: 10px;
+    font-size: 32px;
     border-radius: 19px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 50px;
+    margin-top: 78px;
     justify-content: center;
+    margin-left: 50px;
 }
 #item4{
     grid-row: 3,1;
@@ -99,15 +107,16 @@ footer{
 
 #left{
     /* border-radius: 2px solid black; */
-    background-color:wheat;
+    /* background-color:wheat; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 450px;
+    color: var(--bg);
     /* width: 30%; */
     font-size: 50px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 30px;
     padding-left: -20px;
 }
@@ -118,7 +127,7 @@ footer{
     justify-content: center;
     align-items: center;
     /* background-color: var(--color); */
-    color: var(--hc);
+    /* color: var(--hc); */
     padding: 40px;
     font-size: 67px;
 }
