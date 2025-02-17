@@ -22,6 +22,7 @@ main{
     padding: 40px;
     border: 5px solid black;
     height: 450px;
+    align-items: center;
 }
 
 
