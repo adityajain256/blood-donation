@@ -1,52 +1,107 @@
-/* Dashboard Specific Styles */
-#user-info {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-  }
-  
-  #user-info h2 {
-    margin-top: 0;
-  }
-  
-  #recent-activity {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-  }
-  
-  #recent-activity ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  #recent-activity li {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  #recent-activity li:last-child {
-    border-bottom: none;
-  }
-  
-  #quick-actions {
-    text-align: center;
-  }
-  
-  #quick-actions .actions {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-  }
-  
-  #quick-actions .btn {
-    background-color: #28a745;
-  }
-  
-  #quick-actions .btn:hover {
-    background-color: #218838;
-  }
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  background-color: #d9534f;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 10px; */
+
+}
+
+header h1 {
+  margin: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+  font-size: 25px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Main Content */
+main {
+  width: 80%;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* User Info */
+#user-info, #recent-activity, #quick-actions {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #fff3cd;
+}
+
+h2 {
+  color: #d9534f;
+}
+
+/* Recent Activity */
+#activity-list {
+  list-style: none;
+  padding: 0;
+}
+
+#activity-list li {
+  background: #f8d7da;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Quick Actions */
+.actions {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #5bc0de;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #31b0d5;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #343a40;
+  color: white;
+  padding: 10px 0;
+  margin-top: 20px;
+}
