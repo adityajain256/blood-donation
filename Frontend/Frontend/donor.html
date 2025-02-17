@@ -13,9 +13,9 @@
 
   <main>
     <form id="donor-form">
-      <label for="name">Name:</label>
+      <label id="item1" for="name">Name:</label>
       <input type="text" id="name" name="name" required>
-
+     <div id="item2">
       <label for="blood-group">Blood Group:</label>
       <select id="blood-group" name="blood-group" required>
         <option value="A+">A+</option>
@@ -27,11 +27,11 @@
         <option value="AB+">AB+</option>
         <option value="AB-">AB-</option>
       </select>
-
-      <label for="location">Location:</label>
+    </div>
+      <label id="item3" for="location">Location:</label>
       <input type="text" id="location" name="location" required>
 
-      <button type="submit" class="btn">Register</button>
+      <button id="item4" type="submit" class="btn">Register</button>
     </form>
   </main>
 

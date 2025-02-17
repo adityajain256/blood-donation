@@ -14,6 +14,25 @@ body{
     background-color: var(--bg);
 }
 
+main{
+    display: flex;
+    /* grid-template-rows: repeat(4,100px); */
+    /* border: 2px solid black; */
+    justify-content: center;
+    padding: 40px;
+}
+
+#item1{
+    grid-row: 1,2;
+}
+
+.btn{
+    display: block;
+}
+#item4{
+    grid-row: 3,1;
+}
+
 header h1{
     display: flex;
     justify-content: center;
