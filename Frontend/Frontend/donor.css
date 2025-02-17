@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bg: #F1E3D3 ;
+    --color: #E07A5F;
+    --hc: #690B22;
+    --elc: #1B4D3E;
+}
+
+body{
+    
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color);
+    color: var(--hc);
+    padding: 40px;
+    font-size: 67px;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    width: 100vw;
+    color: var(--bg);
+
+}
