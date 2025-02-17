@@ -2,10 +2,10 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Fetch user data (mock data for now)
     const user = {
-      name: 'hoon',
+      name: 'Aditya jain',
       role: 'Donor',
-      bloodGroup: 'A+',
-      location: 'New York, USA',
+      bloodGroup: 'B+',
+      location: 'Moradabad',
     };
    
     // Populate user info

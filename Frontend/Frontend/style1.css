@@ -1,10 +1,18 @@
 /* General Styles */
+
+:root{
+  --bg: #F1E3D3 ;
+  --color: #E07A5F;
+  --hc: #690B22;
+  --elc: #1B4D3E;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f8f9fa;
-  color: #333;
+  background-color: var(--bg);
+  color: var(--hc);
 }
 
 /* Header Styling */
@@ -37,7 +45,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color:  var(--elc);
   text-decoration: none;
   font-weight: bold;
 }
@@ -46,7 +54,7 @@ nav ul li a {
 main {
   width: 80%;
   margin: 20px auto;
-  background: white;
+  background: var(--hc);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -71,7 +79,7 @@ h2 {
 }
 
 #activity-list li {
-  background: #f8d7da;
+  /* background: #f8d7da; */
   margin: 8px 0;
   padding: 10px;
   border-radius: 5px;
@@ -86,7 +94,7 @@ h2 {
 .btn {
   display: inline-block;
   padding: 10px 15px;
-  background-color: #5bc0de;
+  background-color: var(--color);
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -94,7 +102,7 @@ h2 {
 }
 
 .btn:hover {
-  background-color: #31b0d5;
+  background-color: var(--hc);
 }
 
 /* Footer */
