@@ -2,12 +2,12 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Fetch user data (mock data for now)
     const user = {
-      name: 'John Doe',
+      name: 'hoon',
       role: 'Donor',
       bloodGroup: 'A+',
       location: 'New York, USA',
     };
-  
+   
     // Populate user info
     document.getElementById('username').textContent = user.name;
     document.getElementById('user-role').textContent = user.role;

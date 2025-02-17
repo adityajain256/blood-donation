@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Register as Recipient</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="donor.css">
 </head>
 <body>
   <header>
@@ -12,31 +12,36 @@
   </header>
 
   <main>
-    <form id="recipient-form">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-
-      <label for="blood-group">Required Blood Group:</label>
-      <select id="blood-group" name="blood-group" required>
-        <option value="A+">A+</option>
-        <option value="A-">A-</option>
-        <option value="B+">B+</option>
-        <option value="B-">B-</option>
-        <option value="O+">O+</option>
-        <option value="O-">O-</option>
-        <option value="AB+">AB+</option>
-        <option value="AB-">AB-</option>
-      </select>
-
-      <label for="location">Location:</label>
-      <input type="text" id="location" name="location" required>
-
-      <button type="submit" class="btn">Register</button>
-    </form>
+    
+    <div id="c1">
+      <form id="donor-form">
+        <label id="item1" for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+       <div id="item2">
+        <label for="blood-group">Blood Group:</label>
+        <select id="blood-group" name="blood-group" required>
+          <option class="opt" value="A+">A+</option>
+          <option class="opt" value="A-">A-</option>
+          <option class="opt" value="B+">B+</option>
+          <option class="opt" value="B-">B-</option>
+          <option class="opt" value="O+">O+</option>
+          <option class="opt" value="O-">O-</option>
+          <option class="opt" value="AB+">AB+</option>
+          <option class="opt" value="AB-">AB-</option>
+        </select>
+      </div>
+      <div id="item3">
+        <label for="location">Location:</label>
+        <input type="text" id="location"  name="location" required>
+      </div>
+        <button id="item4" type="submit" class="btn">Register</button>
+      </form>
+    </div>
+   
   </main>
 
   <footer>
-    <p>&copy; 2023 Virtual Blood Donation Platform</p>
+    <p>&copy; 2025 Virtual Blood Donation Platform</p>
   </footer>
 
   <script src="script.js"></script>
